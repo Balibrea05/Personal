@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rellena tu CV</title>
+	</head>
+
+	<body>
+		<div id="contenedor">
+			<h2><strong>Rellena tu CV</strong></h2>
+			<div id="formulario">
+				<form action="#">
+					<span><strong> <i>DATOS PERSONALES</i></strong></span>
+					<fieldset>
+						<label for="papellido"><strong>PRIMER APELLIDO</strong></label> 
+						<input type="text" id="papellido" name="papellido" size="25"/>
+						<label for="sapellido"><strong>SEGUNDO APELLIDO</strong></label> 
+						<input type="text" id="sapellido" name="sapellido" size="25"/>
+						</br>
+
+						<label for="nombre"><strong>NOMBRE</strong></label> 
+						<input type="text" id="nombre" name="nombre" size="20"/>
+						<label for="dni"><strong>DNI/pasaporte</strong></label> 
+						<input type="text" id="dni" name="dni" size="9" maxlength="9" />
+						</br>
+
+						<input name="nombre_propio" type="checkbox" value="nombre_propio"/><strong>EN NOMBRE PROPIO</strong>&nbsp&nbsp&nbsp&nbsp&nbsp
+						<input name="representacion" type="checkbox" value="representacion"/><strong>EN REPRESENTACIÓN</strong>
+					</fieldset>
+
+					<fieldset>	
+						<label for="papellido"><strong>PRIMER APELLIDO</strong></label> 
+						<input type="text" id="papellido" name="papellido" size="25"/>
+						<label for="sapellido"><strong>SEGUNDO APELLIDO</strong></label> 
+						<input type="text" id="sapellido" name="sapellido" size="25"/>
+						</br>
+
+						<label for="nombre"><strong>NOMBRE</strong></label> 
+						<input type="text" id="nombre" name="nombre" size="20"/>
+						<label for="dni">DNI/pasaporte</label> 
+						<input type="text" id="dni" name="dni" size="21" maxlength="9" />
+						<label for="f_nacimiento"><strong>nacido/a</strong></label>
+						<input type="date" id="f_nacimiento" name="f_nacimiento"
+						       value="2020-01-2021"
+						       min="1900/01/01" max="2020/01/2021">
+						<br>
+
+						<label for="localidad">en la localidad</label> 
+						<input type="text" id="localidad" name="localidad" size="12"/>
+						<label for="provincia">Provincia</label> 
+						<input type="text" id="provincia" name="provincia" size="11"/>
+						<label for="pais">País</label> 
+						<input type="text" id="pais" name="pais" size="11"/>
+						<label for="nacionalidad">Nacionalidad</label> 
+						<input type="text" id="nacionalidad" name="nacionalidad" size="12"/>
+						<br>
+
+						<label for="domicilio">con domicilio para notificaciones C/</label> 
+						<input type="text" id="domicilio" name="domicilio" size="59"/>
+						<label for="numero">Nº</label> 
+						<input type="text" id="numero" name="numero" size="2" maxlength="2" />
+						<br>
+
+						<label for="piso">Piso</label> 
+						<input type="text" id="piso" name="piso" size="4" maxlength="2" />
+						<label for="letra">Letra</label> 
+						<input type="text" id="letra" name="letra" size="4" maxlength="3" />
+						<label for="cp">C.P</label> 
+						<input type="text" id="cp" name="cp" size="5" maxlength="5" />
+						<label for="localidad2">Localidad</label> 
+						<input type="text" id="localidad2" name="localidad2" size="17"/>
+						<label for="provincia2">provincia</label> 
+						<input type="text" id="provincia2" name="provincia2" size="17"/>
+						<br>
+
+						<label for="pais">País</label> 
+						<input type="text" id="pais" name="pais" size="10"/>
+						<br>
+
+						<label for="tlf">Teléfono de contacto</label> 
+						<input type="text" id="tlf" name="tlf" size="9" maxlength="9" />
+						<label for="correo">Correo electrónico</label> 
+						<input type="text" id="correo" name="correo" size="20"/>
+						<br>
+						<label for="obsevaciones"><strong>OBSERVACIONES:</strong></label>
+						<textarea id="obsevaciones" name="obsevaciones" cols="25" rows="1">
+						</textarea>
+					</fieldset>
+					<span><strong> <i>SOLICITA</i></strong></span>	
+					<fieldset>
+						<label for="universidad">Del rectorado, la expedición del <strong>Suplemento Europeo al Título</strong>, cumplido el requisito previo de haber abonado, en su caso,<br>los precios públicos por la expedición al título universitario oficial de</label> 
+
+						<input type="text" id="universidad" name="universidad" size="30"/>
+						<label for="universidad">estudios que ha <br>realizado la Universidad de Granada en:</label><br>
+						<input name="facultad" type="checkbox" value="facultad"/>Facultad de 
+						<input type="text" id="facultad" name="facultad" size="90"/><br>
+						<input name="escuela" type="checkbox" value="escuela"/> Escuela Técnica Superior de
+						<input type="text" id="escuela" name="escuela" size="75"/><br>
+						<input name="postgrado" type="checkbox" value="facultad"/>Escuela Internacional de Postgrado
+						<input type="text" id="postgrado" name="postgrado" size="70"/><br>
+					</fieldset>				
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>
