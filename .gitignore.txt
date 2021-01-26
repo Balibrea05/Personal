@@ -8,4 +8,4 @@
 *.tar
 *.zip
 *.log
-public.log
+!public.log
